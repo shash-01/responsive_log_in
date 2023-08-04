@@ -80,7 +80,7 @@ input
 }
 .container
 {
-    background-image: url(/Programming/Project-1/img/Bubble_15113.png);
+    background-image: url('Bubble_15113.png');
     /*margin-top: 20px;
     margin-bottom: 20px;*/
     height:100vh;
