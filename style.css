@@ -9,14 +9,19 @@ body
 {
     height:100vh;
     width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
 h1{
     display:flex;
     justify-content: center;
     align-items: center;
     position:absolute;
     top:50px;
-    left:640px;
+    /*left:640px;*/
     font-family: 'poppins';
     font-weight: 800;
 
@@ -57,6 +62,7 @@ input{
     border:1px solid transparent;
     border-bottom: 2px solid black;
 }*/
+
 input
 {
     background:none;
@@ -66,18 +72,25 @@ input
     margin-top:10px;
     transition: 2s;
     margin-right:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
     
 }
 .container
 {
-    background-image: url(Bubble_15113.png);
+    background-image: url(/Programming/Project-1/img/Bubble_15113.png);
     /*margin-top: 20px;
     margin-bottom: 20px;*/
     height:100vh;
     width:100%;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
 .button{
     background-color: rgb(93, 168, 168);
@@ -87,14 +100,19 @@ input
     border-radius:5px;
     position:absolute;
     bottom:200px;
-    left:520px;
-    width:350px;
+    left:530px;
+    width:360px;
     transition: none;
     font-weight: 800;
     text-align: center;
     text-decoration: none;
     color:black;
     padding-top:4px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
 
 }
 .button:hover{
@@ -130,12 +148,14 @@ input
     input
     {
         margin-bottom:30px;
+        width:auto;
     }
     h1{
-       
-        position:absolute;
-        top:50px;
-        left:150px;
+        justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:50px;
+    /*left:150px;*/
         font-family: 'poppins';
     
     }
